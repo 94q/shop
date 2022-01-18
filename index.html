@@ -1,0 +1,82 @@
+<!-- https://nuvem.art -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>nuvem's shop</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarala&amp;display=swap">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="initial-scale=0.7, minimal-ui, viewport-fit=cover, width=device-width">
+        <meta name="theme-color" content="#69919D">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="moum.ml">
+        <meta property="og:title" content="nuvem's shop">
+        <meta property="og:image" content="https://cdn.discordapp.com/avatars/878045426568273960/41cfc57b8dcd692ea59ab5e52b7ccb63.webp?size=80">
+        <meta property="og:url" content="https://moum.ml/">
+        <meta property="og:description" content="OG/Stat Accounts">
+        <meta property="description" content="personal website uwu">
+        <meta property="keywords" content="moum, shop, og, username, tiktokog, ml">
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/avatars/878045426568273960/41cfc57b8dcd692ea59ab5e52b7ccb63.webp?size=80">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.4;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">touch to enter nuvem's shop</span>
+                    <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter moum's shop</span>
+                </label>
+            </div>
+            <audio loop="" preload="auto" id="audio">
+                <source src="assets/audio/audio.mp3" type="audio/mp3">
+            </audio>
+            <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="assets/img/bg.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">moum's shop</h1>
+                <p style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;"><a href="https://discord.gg/3l" style="text-decoration: none">   ㅤ᲼᲼᲼   ㅤmoum#0001 & @moum2swag on ig</a></p> 
+                in stock
+                <div class="socials">
+                    <a href="https://www.instagram.com/tiih" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">@tiih (IG)</a>
+                    /
+                    <a href="https://namemc.com/profile/Scrub.1" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">@simulation (MC)</a>
+	 /
+	  <a href="https://discord.gg/3l" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">more in discord srvr</a>
+            </div>
+        </main>
+        <script>
+            document.onkeydown = function (e) {
+                if (e.ctrlKey) {
+                    const { keyCode: c } = e;
+                    switch (c) {
+                        case 83:
+                        case 85:
+                        case 65:
+                        case 73:
+                        case 123:
+                            e.preventDefault();
+                            break;
+                    }
+                }
+            };
+            window.addEventListener("contextmenu", function (e) {
+                e.preventDefault();
+                alert("📸")
+            }, false);
+        </script>
+
+</body>
+</html>
